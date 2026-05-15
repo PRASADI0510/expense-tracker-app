@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+.env
+.env.local
+.env.*.local
+
+# Production
+dist/
+build/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+temp/
+tmp/
+.temp/
+
+# Build outputs
+*.tsbuildinfo
+
+# Environment files
+backend/.env
+frontend/.env
+
+# Cache
+.eslintcache
